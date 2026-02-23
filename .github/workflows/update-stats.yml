@@ -22,7 +22,7 @@ jobs:
       - name: Generate SVG cards
         env:
           GH_USERNAME: ${{ github.repository_owner }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_STATS }}
         run: node src/index.js
 
       - name: Commit and push
