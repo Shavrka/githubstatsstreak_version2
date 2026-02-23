@@ -22,9 +22,7 @@ jobs:
       - name: Generate SVG cards
         env:
           GH_USERNAME: ${{ github.repository_owner }}
-          # GITHUB_TOKEN daje pristup javnim podacima (commits, stars, languages…)
-          # Za privatne repozitorijume dodaj PAT u Settings → Secrets → Actions (ime: PAT_STATS)
-          GH_TOKEN: ${{ secrets.PAT_STATS || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node src/index.js
 
       - name: Commit and push
