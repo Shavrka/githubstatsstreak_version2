@@ -1,0 +1,12 @@
+{
+  "name": "github-stats-cards",
+  "version": "1.0.0",
+  "description": "Generate GitHub stats SVG cards — self-contained, no external actions",
+  "type": "module",
+  "scripts": {
+    "generate": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
