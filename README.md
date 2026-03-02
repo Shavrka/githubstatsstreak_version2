@@ -12,46 +12,46 @@
 
 ---
 
-## 🛠 Upute: Kako uključiti privatne repozitorije u svoju statistiku
+## 🛠 Instructions: How to include private repositories in your stats
 
-Ako radite na privatnim repozitorijima i želite da se ti doprinosi (commitovi) prikažu na vašim statističkim karticama (poput broja commitova, streak-a, jezika koje koristite), potrebno je podesiti **Personal Access Token (PAT)** i omogućiti prikazivanje privatnih doprinosa na vašem profilu.
+If you work on private repositories and want those contributions (commits) to show up on your stats cards (like commit count, streak, top languages), you need to set up a **Personal Access Token (PAT)** and enable private contributions on your profile.
 
-### Korak 1: Omogućavanje privatnih doprinosa na GitHub profilu
-Da bi se vaši privatni commitovi uopšte računali u vašem *Contribution* grafu na GitHubu, potrebno je to uključiti u postavkama profila:
-1. Otvorite svoj **GitHub profil** (`https://github.com/vaše_korisničko_ime`).
-2. Dođite do vašeg zelenog grafa doprinosa (*Contribution graph*).
-3. U gornjem desnom uglu iznad samog grafa, kliknite na **"Contribution settings"** (padajući meni).
-4. Označite opciju **"Private contributions"**. (Ovo će dodati vaše commitove iz privatnih repozitorija u grafikon, ali bez otkrivanja naziva tih repozitorija drugim ljudima).
+### Step 1: Enable private contributions on your GitHub profile
+In order for your private commits to even count in your GitHub *Contribution* graph, you need to enable it in your profile settings:
+1. Open your **GitHub profile** (`https://github.com/your_username`).
+2. Scroll down to your green contribution graph.
+3. In the top right corner above the graph, click on **"Contribution settings"** (dropdown menu).
+4. Check the **"Private contributions"** option. (This will add your private repository commits to the graph without revealing the names of those repositories to others).
 
-### Korak 2: Kreiranje Personal Access Tokena (PAT)
-Da bi ova skripta mogla pročitati podatke iz vaših privatnih repozitorija (kako bi napravila tačne SVG statistike), potreban joj je pristup preko tokena.
-1. Idite u gornji desni ugao na GitHubu (vaša profilna slika) i kliknite **Settings**.
-2. Na dnu lijeve bočne trake kliknite na **Developer settings**.
-3. Zatim idite na **Personal access tokens** -> **Tokens (classic)**.
-4. Kliknite na dugme **Generate new token (classic)**.
-5. U polje **Note** upišite šta god želite (npr. `PAT_STATS`).
-6. Pod opcijom **Expiration**, preporučuje se staviti `No expiration` (ili određeni duži period, ali morat ćete ga obnoviti kad istekne).
-7. U sekciji **Select scopes**, obavezno označite:
-   - **`repo`** (ovo omogućava pristup i javnim i privatnim repozitorijima).
-   - **`read:user`** i **`user:email`** (ispod sekcije `user`, za dohvaćanje korisničkih podataka).
-8. Skenirajte do dna stranice i kliknite **Generate token**.
-9. **Odmah kopirajte generisani token** jer ga više nećete moći vidjeti nakon zatvaranja prozora!
+### Step 2: Create a Personal Access Token (PAT)
+For this script to read data from your private repositories (to create accurate SVG stats), it needs token access.
+1. Go to the top right corner of GitHub (your profile picture) and click **Settings**.
+2. At the bottom of the left sidebar, click on **Developer settings**.
+3. Then go to **Personal access tokens** -> **Tokens (classic)**.
+4. Click the **Generate new token (classic)** button.
+5. In the **Note** field, write whatever you want (e.g., `PAT_STATS`).
+6. Under **Expiration**, it is recommended to set `No expiration` (or a specific longer period, but you will have to renew it when it expires).
+7. In the **Select scopes** section, make sure to check:
+   - **`repo`** (this allows access to both public and private repositories).
+   - **`read:user`** and **`user:email`** (under the `user` section, to fetch user data).
+8. Scroll to the bottom of the page and click **Generate token**.
+9. **Copy the generated token immediately** because you won't be able to see it again after closing the page!
 
-### Korak 3: Postavljanje tokena u repozitorij (Repository Secrets)
-Sada taj token morate dodati u ovaj repozitorij kako bi ga GitHub Action skripta mogla koristiti.
-1. Otvorite ovaj repozitorij na GitHubu.
-2. Kliknite na karticu **Settings** (odnosi se na postavke repozitorija).
-3. Na lijevoj strani u meniju idite na **Secrets and variables** -> **Actions**.
-4. Kliknite na zeleno dugme **New repository secret**.
-5. U polje **Name** morate upisati tačno sljedeće: `PAT_STATS` (ovako je definirano u `.github/workflows/update-stats.yml` datoteci).
-6. U polje **Secret** zalijepite vaš kopirani token iz prethodnog koraka.
-7. Kliknite **Add secret**.
+### Step 3: Add the token to the repository (Repository Secrets)
+Now you must add that token to this repository so the GitHub Action script can use it.
+1. Open this repository on GitHub.
+2. Click on the **Settings** tab (repository settings).
+3. On the left side menu, go to **Secrets and variables** -> **Actions**.
+4. Click the green **New repository secret** button.
+5. In the **Name** field, you must type exactly the following: `PAT_STATS` (this is how it's defined in the `.github/workflows/update-stats.yml` file).
+6. In the **Secret** field, paste your copied token from the previous step.
+7. Click **Add secret**.
 
-### Korak 4: Testiranje (Pokretanje GitHub Akcije)
-Nakon što ste dodali secret, možete ručno pokrenuti akciju da generišete novu statistiku.
-1. U ovom repozitoriju, kliknite na karticu **Actions**.
-2. Na lijevoj strani izaberite vaš workflow (npr. **Update GitHub Stats Cards**).
-3. S desne strane kliknite na padajući meni **Run workflow**.
-4. Potvrdite klikom na zeleno dugme **Run workflow**.
+### Step 4: Test it (Run the GitHub Action)
+After adding the secret, you can manually run the action to generate the new stats.
+1. In this repository, click on the **Actions** tab.
+2. On the left side, select your workflow (e.g., **Update GitHub Stats Cards**).
+3. On the right side, click the **Run workflow** dropdown menu.
+4. Confirm by clicking the green **Run workflow** button.
 
-Kada se akcija završi uspješno (pokazat će zelenu kvačicu), vaše kartice (`stats.svg`, `streak.svg`, `langs.svg`) će biti automatski ažurirane i uključivat će vašu privatnu statistiku!
+Once the action finishes successfully (shows a green checkmark), your cards (`stats.svg`, `streak.svg`, `langs.svg`) will be automatically updated and will include your private stats!
