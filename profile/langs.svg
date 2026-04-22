@@ -10,50 +10,50 @@
 
   <g class="fade">
   <clipPath id="bc"><rect x="25" y="55" width="250" height="8" rx="4"/></clipPath>
-  <g clip-path="url(#bc)"><rect x="25.00" y="55" width="93.50" height="8" fill="#555555"/><rect x="118.50" y="55" width="70.75" height="8" fill="#f1e05a"/><rect x="189.25" y="55" width="52.50" height="8" fill="#3178c6"/><rect x="241.75" y="55" width="27.50" height="8" fill="#00ADD8"/><rect x="269.25" y="55" width="2.50" height="8" fill="#663399"/><rect x="271.75" y="55" width="2.50" height="8" fill="#89e051"/><rect x="274.25" y="55" width="0.25" height="8" fill="#427819"/><rect x="274.50" y="55" width="0.25" height="8" fill="#C1F12E"/><rect x="274.75" y="55" width="0.25" height="8" fill="#e34c26"/><rect x="275.00" y="55" width="0.00" height="8" fill="#384d54"/></g>
+  <g clip-path="url(#bc)"><rect x="25.00" y="55" width="88.00" height="8" fill="#555555"/><rect x="113.00" y="55" width="66.75" height="8" fill="#f1e05a"/><rect x="179.75" y="55" width="63.50" height="8" fill="#3178c6"/><rect x="243.25" y="55" width="26.00" height="8" fill="#00ADD8"/><rect x="269.25" y="55" width="2.75" height="8" fill="#663399"/><rect x="272.00" y="55" width="2.25" height="8" fill="#89e051"/><rect x="274.25" y="55" width="0.25" height="8" fill="#e34c26"/><rect x="274.50" y="55" width="0.25" height="8" fill="#427819"/><rect x="274.75" y="55" width="0.25" height="8" fill="#C1F12E"/><rect x="275.00" y="55" width="0.00" height="8" fill="#384d54"/></g>
   <g transform="translate(25,81)">
     <circle cx="5" cy="6" r="5" fill="#555555"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">C</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">37.4%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">35.2%</text>
   </g>
   <g transform="translate(25,105)">
     <circle cx="5" cy="6" r="5" fill="#f1e05a"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">JavaScript</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">28.3%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">26.7%</text>
   </g>
   <g transform="translate(25,129)">
     <circle cx="5" cy="6" r="5" fill="#3178c6"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">TypeScript</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">21%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">25.4%</text>
   </g>
   <g transform="translate(25,153)">
     <circle cx="5" cy="6" r="5" fill="#00ADD8"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">Go</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">11%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">10.4%</text>
   </g>
   <g transform="translate(25,177)">
     <circle cx="5" cy="6" r="5" fill="#663399"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">CSS</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">1%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">1.1%</text>
   </g>
   <g transform="translate(25,201)">
     <circle cx="5" cy="6" r="5" fill="#89e051"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">Shell</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">1%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">0.9%</text>
   </g>
   <g transform="translate(25,225)">
+    <circle cx="5" cy="6" r="5" fill="#e34c26"/>
+    <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">HTML</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">0.1%</text>
+  </g>
+  <g transform="translate(25,249)">
     <circle cx="5" cy="6" r="5" fill="#427819"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">Makefile</text>
     <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">0.1%</text>
   </g>
-  <g transform="translate(25,249)">
+  <g transform="translate(25,273)">
     <circle cx="5" cy="6" r="5" fill="#C1F12E"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">Batchfile</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">0.1%</text>
-  </g>
-  <g transform="translate(25,273)">
-    <circle cx="5" cy="6" r="5" fill="#e34c26"/>
-    <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">HTML</text>
     <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">0.1%</text>
   </g>
   <g transform="translate(25,297)">
