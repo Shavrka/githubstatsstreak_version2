@@ -6,6 +6,8 @@
 
 ![GitHub Streak](./profile/streak.svg)
 
+The streak card uses a calendar for total contributions, a flame for the current streak, and a trophy for the longest streak.
+
 ![Top Languages](./profile/langs.svg)
 
 </div>

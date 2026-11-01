@@ -26,8 +26,8 @@ export function renderStreakCard(stats) {
 
   const cols = [
     { icon: "calendar", value: totalContributions.toLocaleString(), label: "Total Contributions", color: C.text   },
-    { icon: "fire",     value: `${currentStreak} days`,             label: "Current Streak",      color: C.accent },
-    { icon: "fire",     value: `${longestStreak} days`,             label: "Longest Streak",      color: C.title  },
+    { icon: "flame",    value: `${currentStreak} days`,             label: "Current Streak",      color: C.accent },
+    { icon: "trophy",   value: `${longestStreak} days`,             label: "Longest Streak",      color: C.title  },
   ];
 
   const midY = H / 2;
