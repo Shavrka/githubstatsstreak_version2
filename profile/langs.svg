@@ -10,46 +10,46 @@
 
   <g class="fade">
   <clipPath id="bc"><rect x="25" y="55" width="250" height="8" rx="4"/></clipPath>
-  <g clip-path="url(#bc)"><rect x="25.00" y="55" width="67.25" height="8" fill="#3178c6"/><rect x="92.25" y="55" width="59.00" height="8" fill="#f1e05a"/><rect x="151.25" y="55" width="36.50" height="8" fill="#e34c26"/><rect x="187.75" y="55" width="31.25" height="8" fill="#555555"/><rect x="219.00" y="55" width="19.75" height="8" fill="#00ADD8"/><rect x="238.75" y="55" width="19.00" height="8" fill="#DA5B0B"/><rect x="257.75" y="55" width="13.00" height="8" fill="#663399"/><rect x="270.75" y="55" width="2.75" height="8" fill="#3572A5"/><rect x="273.50" y="55" width="1.00" height="8" fill="#89e051"/><rect x="274.50" y="55" width="0.50" height="8" fill="#336790"/></g>
+  <g clip-path="url(#bc)"><rect x="25.00" y="55" width="61.25" height="8" fill="#3178c6"/><rect x="86.25" y="55" width="55.50" height="8" fill="#e34c26"/><rect x="141.75" y="55" width="53.75" height="8" fill="#f1e05a"/><rect x="195.50" y="55" width="28.50" height="8" fill="#555555"/><rect x="224.00" y="55" width="18.00" height="8" fill="#00ADD8"/><rect x="242.00" y="55" width="17.25" height="8" fill="#DA5B0B"/><rect x="259.25" y="55" width="12.00" height="8" fill="#663399"/><rect x="271.25" y="55" width="2.50" height="8" fill="#3572A5"/><rect x="273.75" y="55" width="1.00" height="8" fill="#89e051"/><rect x="274.75" y="55" width="0.50" height="8" fill="#336790"/></g>
   <g transform="translate(25,81)">
     <circle cx="5" cy="6" r="5" fill="#3178c6"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">TypeScript</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">26.9%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">24.5%</text>
   </g>
   <g transform="translate(25,105)">
-    <circle cx="5" cy="6" r="5" fill="#f1e05a"/>
-    <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">JavaScript</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">23.6%</text>
-  </g>
-  <g transform="translate(25,129)">
     <circle cx="5" cy="6" r="5" fill="#e34c26"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">HTML</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">14.6%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">22.2%</text>
+  </g>
+  <g transform="translate(25,129)">
+    <circle cx="5" cy="6" r="5" fill="#f1e05a"/>
+    <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">JavaScript</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">21.5%</text>
   </g>
   <g transform="translate(25,153)">
     <circle cx="5" cy="6" r="5" fill="#555555"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">C</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">12.5%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">11.4%</text>
   </g>
   <g transform="translate(25,177)">
     <circle cx="5" cy="6" r="5" fill="#00ADD8"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">Go</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">7.9%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">7.2%</text>
   </g>
   <g transform="translate(25,201)">
     <circle cx="5" cy="6" r="5" fill="#DA5B0B"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">Jupyter Notebook</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">7.6%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">6.9%</text>
   </g>
   <g transform="translate(25,225)">
     <circle cx="5" cy="6" r="5" fill="#663399"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">CSS</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">5.2%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">4.8%</text>
   </g>
   <g transform="translate(25,249)">
     <circle cx="5" cy="6" r="5" fill="#3572A5"/>
     <text x="16" y="11" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">Python</text>
-    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">1.1%</text>
+    <text x="250" y="11" fill="#8983a6" font-size="11" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">1%</text>
   </g>
   <g transform="translate(25,273)">
     <circle cx="5" cy="6" r="5" fill="#89e051"/>
